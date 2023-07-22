@@ -2,11 +2,11 @@
   "name": "contacts-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --collectCoverage",
     "dev:build": "tsc",
-    "dev:serve": "nodemon -e js -w lib lib/main.js"
+    "dev:serve": "nodemon -e js -w lib lib/main.js",
+    "dev": "nodemon src/main.ts"
   },
   "keywords": [],
   "author": "",
